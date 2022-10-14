@@ -1,0 +1,82 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  
+  /* p {
+    color: #8f8f8f;
+  } */
+
+
+.colored-section {
+    background-image: url("../images/pexels.jpg");
+    background-size: contain;
+    background-color: gray;    
+      
+}
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: white;
+
+}
+
+.main{
+  font-family: "Ubuntu";
+  font-size: 1rem;
+
+}
+h2, h5 span { 
+  color: #DCD7C9; 
+  
+  /* padding:5px;
+  font-size:20px;
+  
+  /* color:#ffffff; */
+}
+
+h6 span {
+  color: black;
+}
+
+.line{
+  height:7px;
+  border-width:0;
+  color: #665A48;
+  background-color:#665A48
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 10%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Sections */
+
+.gray-section{
+  background-color: gray;
+}
+
+
+.download-section{
+  background-color: black;
+}
